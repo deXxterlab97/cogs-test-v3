@@ -72,7 +72,7 @@ class BandName(commands.Cog):
                 genre = choice(genres)
                 # send the message
                 band = message.content.strip()
-                await message.channel.send(f"\"{band}\" is the name of my new {genre} band")
+                await message.channel.send(f"\"{band}\" is the name of my new kink")
                 await guild_config.p_mod.set(0)
             else:
                 print('bandname message MISS')
